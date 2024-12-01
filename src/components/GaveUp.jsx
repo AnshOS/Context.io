@@ -18,7 +18,7 @@ export default function GaveUp({ setIsPrevOpen, setIsWordsOpen, game }) {
     const [sharedMsg, displaySharedMsg] = useShareMessage("Share anyway", SHARE_RESET_TIMEOUT)
 
     const handleShareButton = () => {
-        let messageText = `I played glovewords.vercel.app #${gameId} but I gave up in ${attempts} ${guessText}${finalTipText}. \n\n`
+        let messageText = `I played context-dot-io.vercel.app #${gameId} but I gave up in ${attempts} ${guessText}${finalTipText}. \n\n`
         messageText += chart
 
         if ((isMobile() || isChrome()) && !isFirefox() && navigator.share) {
