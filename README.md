@@ -12,8 +12,6 @@
 
 Faster replica of the popular word guessing game Contexto.me. Site has a perfect score of 100/100 in all four aspects of Google Lighthouse, for its performance, accessibility, best practices, and SEO.
 
-![image](https://github.com/user-attachments/assets/4e2887c8-1165-4712-808f-4df458f40f59)
-
 ## Features
 
 **Modern Tech Stack**: Built with React and styled using Tailwind CSS for a responsive and visually appealing interface.
